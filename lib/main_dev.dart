@@ -4,10 +4,10 @@ import 'package:flutter/material.dart';
 
 void main() {
   AppConfig.create(
-    appName: "Prod Flavor Example",
-    baseUrl: "https://assembly.rajasthan.gov.in",
-    primaryColor: Colors.yellow,
-    flavor: Flavor.prod,
+    appName: "Dev Flavor Example",
+    baseUrl: "https://dev.assembly.rajasthan.gov.in",
+    primaryColor: Colors.blue,
+    flavor: Flavor.dev,
   );
 
   runApp(const MyApp());
